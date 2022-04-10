@@ -1,0 +1,2 @@
+# Manta_Signal_Processing_Board
+This is my latest project. I designed this board to process signals coming from H1C hydrophone (https://www.aquarianaudio.com/h1c-hydrophone.html). The acoustic signals are first filtered and amplified via 6th order Bessel filter I designed with the help of a filter design tool (https://webench.ti.com/filter-design-tool/ ). Then the signals either go to logic level shifter first and microcontroller's ADC's second, or directly to microcontroller's ADC's. The last part is optional.
